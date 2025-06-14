@@ -11,4 +11,8 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 })
 export class AppComponent {
   title = 'fullstack';
+
+  testFunc() {
+    return 5*5 
+  }
 }
